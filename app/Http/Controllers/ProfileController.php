@@ -10,6 +10,10 @@ class ProfileController extends Controller
         $name = "Donal Trump";
         $age  = "75";
 
-        
+        $data = [
+            'id' => $id,
+            'name' => $name,
+            'age' => $age
+        ];
     }
 }
